@@ -1,0 +1,13 @@
+{
+  "name": "vxlan-mtu-fragmentation-validator",
+  "version": "1.0.0",
+  "description": "逐跳校验 VXLAN 封装后的 MTU、分片与 PMTUD 行为(纯离线模型,不发送真实探测包)",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
